@@ -5,13 +5,18 @@
 }
 :root {
     --main-color: #088178;
+    --black-color: #000;
     --dark-text: #222;
     --cod-text: #1a1a1a;
+    --white-color: #fff;
     --border-color: #cce7d0;
 }
 body {
-    font-family: 'League Spartan', sans-serif;
+    min-width: 320px;
     width: 100%;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
 }
 img {
     max-width: 100%;
@@ -36,7 +41,7 @@ p {
     clip: rect(0 0 0 0);
 }
 .container {
-    max-width: 1200px;
+    max-width: 1430px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -46,6 +51,27 @@ p {
     padding: 0;
     border: 0;
     cursor: pointer;
+}
+.btn:focus {
+    outline: none;
+}
+.btn-normal {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--black-color);
+    padding: 15px 30px;
+    background-color: var(--white-color);
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+.btn-white {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--white-color);
+    padding: 11px 18px;
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    transition: 0.3s ease;
 }
 .main-title {
     font-size: 50px;

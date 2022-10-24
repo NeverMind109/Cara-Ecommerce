@@ -1,0 +1,41 @@
+.collections {
+    padding: 0 50px;
+}
+.collections__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+}
+.collection__seasonal {
+    background: url('../img/banner/b7.jpg');
+}
+.collection__footwear {
+    background: url('../img/banner/b4.jpg');
+}
+.collection__tshirt {
+    background: url('../img/banner/b18.jpg');
+}
+.collection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 30px;
+}
+.collection__title {
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin-bottom: 7px;
+}
+.collection__descr {
+    display: block;
+    font-size: 15px;
+    font-weight: 800;
+    color: #ec544e;
+    text-transform: capitalize;
+}

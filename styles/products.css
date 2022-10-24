@@ -3,7 +3,7 @@
 }
 .products__wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
     gap: 20px;
     padding-top: 20px;
 }
@@ -11,6 +11,7 @@
     position: relative;
     padding: 10px 12px;
     border: 1px solid #cce7d0;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     border-radius: 25px;
     transition: 0.2s ease;
 }
@@ -67,7 +68,4 @@
 
 .product-hover-shadow {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
-}
-.product-default-shadow {
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
 }
