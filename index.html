@@ -21,40 +21,287 @@
   </head>
   <body>
     <header class="header" id="header">
-      <a class="logo" href="#">
-        <img class="logo__img" src="./img/logo.png" alt="Logo" />
-      </a>
-      <nav>
-        <ul class="navbar" id="navbar">
-          <li class="navbar__item">
-            <a class="navbar__link active" href="index.html">Home</a>
-          </li>
-          <li class="navbar__item">
-            <a class="navbar__link" href="shop.html">Shop</a>
-          </li>
-          <li class="navbar__item">
-            <a class="navbar__link" href="blog.html">Blog</a>
-          </li>
-          <li class="navbar__item">
-            <a class="navbar__link" href="about.html">About</a>
-          </li>
-          <li class="navbar__item">
-            <a class="navbar__link" href="contact.html">Contact</a>
-          </li>
-          <li class="navbar__item">
-            <a class="navbar__link" href="cart.html"
-              ><i class="fa-solid fa-bag-shopping"></i
-            ></a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <div class="header__wrapper">
+          <a class="logo" href="#">
+            <img class="logo__img" src="./img/logo.png" alt="Logo" />
+          </a>
+          <nav>
+            <ul class="navbar" id="navbar">
+              <li class="navbar__item">
+                <a class="navbar__link active" href="index.html">Home</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="shop.html">Shop</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="blog.html">Blog</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="about.html">About</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="contact.html">Contact</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="cart.html"
+                  ><i class="fa-solid fa-bag-shopping"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <section class="hero" id="hero">
-      <span class="hero__subtitle">Trade-in-offer</span>
-      <h2 class="section-title">Super value deals</h2>
-      <h1 class="main-title hero__title">On all products</h1>
-      <p>Save more with coupons & up to 70% off!</p>
-      <button class="btn hero__btn">Shop Now</button>
+      <div class="container">
+        <div class="hero__wrapper">
+          <span class="hero__subtitle">Trade-in-offer</span>
+          <h2 class="section-title">Super value deals</h2>
+          <h1 class="main-title hero__title">On all products</h1>
+          <p>Save more with coupons & up to 70% off!</p>
+          <button class="btn hero__btn">Shop Now</button>
+        </div>
+      </div>
+    </section>
+    <section class="features section-p-offset" id="feature">
+      <h2 class="visually-hidden">Our Features</h2>
+      <div class="container">
+        <div class="features__wrapper">
+          <div class="feature">
+            <img
+              class="feature__img"
+              src="./img/features/f1.png"
+              alt="Feature"
+            />
+            <span class="feature__title feature__shipping">Free Shipping</span>
+          </div>
+          <div class="feature">
+            <img
+              class="feature__img"
+              src="./img/features/f2.png"
+              alt="Feature"
+            />
+            <span class="feature__title feature__order">Online Order</span>
+          </div>
+          <div class="feature">
+            <img
+              class="feature__img"
+              src="./img/features/f3.png"
+              alt="Feature"
+            />
+            <span class="feature__title feature__money">Save Money</span>
+          </div>
+          <div class="feature">
+            <img
+              class="feature__img"
+              src="./img/features/f4.png"
+              alt="Feature"
+            />
+            <span class="feature__title feature__promotions">Promotions</span>
+          </div>
+          <div class="feature">
+            <img
+              class="feature__img"
+              src="./img/features/f5.png"
+              alt="Feature"
+            />
+            <span class="feature__title feature__sell">Happy Sell</span>
+          </div>
+          <div class="feature">
+            <img
+              class="feature__img"
+              src="./img/features/f6.png"
+              alt="Feature"
+            />
+            <span class="feature__title feature__support">24/7 Support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="products section-p-offset" id="products">
+      <div class="container">
+        <h2 class="section-title">Featured Products</h2>
+        <p class="products__descr">Summer Collection New Modern Design</p>
+        <div class="products__wrapper">
+          <div class="product product-default-shadow">
+            <img
+              class="product__img"
+              src="./img/products/f1.jpg"
+              alt="Cartoon Austornaut T-Shirt"
+            />
+            <div class="product__descr">
+              <span class="product__brand">adidas</span>
+              <a class="product__name" href="#">Cartoon Austornaut T-Shirt</a>
+              <div class="product__stars">
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+              </div>
+              <span class="product__price">$78</span>
+            </div>
+            <a class="product__btn" href="#">
+              <i class="fa-solid fa-cart-shopping product__icon"></i>
+            </a>
+          </div>
+          <div class="product product-default-shadow">
+            <img
+              class="product__img"
+              src="./img/products/f2.jpg"
+              alt="Cartoon Austornaut T-Shirt"
+            />
+            <div class="product__descr">
+              <span class="product__brand">adidas</span>
+              <a class="product__name" href="#">Cartoon Austornaut T-Shirt</a>
+              <div class="product__stars">
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+              </div>
+              <span class="product__price">$78</span>
+            </div>
+            <a class="product__btn" href="#">
+              <i class="fa-solid fa-cart-shopping product__icon"></i>
+            </a>
+          </div>
+          <div class="product product-default-shadow">
+            <img
+              class="product__img"
+              src="./img/products/f3.jpg"
+              alt="Cartoon Austornaut T-Shirt"
+            />
+            <div class="product__descr">
+              <span class="product__brand">adidas</span>
+              <a class="product__name" href="#">Cartoon Austornaut T-Shirt</a>
+              <div class="product__stars">
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fa-regular fa-star product__star"></i>
+              </div>
+              <span class="product__price">$78</span>
+            </div>
+            <a class="product__btn" href="#">
+              <i class="fa-solid fa-cart-shopping product__icon"></i>
+            </a>
+          </div>
+          <div class="product product-default-shadow">
+            <img
+              class="product__img"
+              src="./img/products/f4.jpg"
+              alt="Cartoon Austornaut T-Shirt"
+            />
+            <div class="product__descr">
+              <span class="product__brand">adidas</span>
+              <a class="product__name" href="#">Cartoon Austornaut T-Shirt</a>
+              <div class="product__stars">
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+              </div>
+              <span class="product__price">$78</span>
+            </div>
+            <a class="product__btn" href="#">
+              <i class="fa-solid fa-cart-shopping product__icon"></i>
+            </a>
+          </div>
+          <div class="product product-default-shadow">
+            <img
+              class="product__img"
+              src="./img/products/f5.jpg"
+              alt="Cartoon Austornaut T-Shirt"
+            />
+            <div class="product__descr">
+              <span class="product__brand">adidas</span>
+              <a class="product__name" href="#">Cartoon Austornaut T-Shirt</a>
+              <div class="product__stars">
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+              </div>
+              <span class="product__price">$78</span>
+            </div>
+            <a class="product__btn" href="#">
+              <i class="fa-solid fa-cart-shopping product__icon"></i>
+            </a>
+          </div>
+          <div class="product product-default-shadow">
+            <img
+              class="product__img"
+              src="./img/products/f6.jpg"
+              alt="Cartoon Austornaut T-Shirt"
+            />
+            <div class="product__descr">
+              <span class="product__brand">adidas</span>
+              <a class="product__name" href="#">Cartoon Austornaut T-Shirt</a>
+              <div class="product__stars">
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+              </div>
+              <span class="product__price">$78</span>
+            </div>
+            <a class="product__btn" href="#">
+              <i class="fa-solid fa-cart-shopping product__icon"></i>
+            </a>
+          </div>
+          <div class="product product-default-shadow">
+            <img
+              class="product__img"
+              src="./img/products/f7.jpg"
+              alt="Cartoon Austornaut T-Shirt"
+            />
+            <div class="product__descr">
+              <span class="product__brand">adidas</span>
+              <a class="product__name" href="#">Cartoon Austornaut T-Shirt</a>
+              <div class="product__stars">
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fa-regular fa-star product__star"></i>
+              </div>
+              <span class="product__price">$78</span>
+            </div>
+            <a class="product__btn" href="#">
+              <i class="fa-solid fa-cart-shopping product__icon"></i>
+            </a>
+          </div>
+          <div class="product product-default-shadow">
+            <img
+              class="product__img"
+              src="./img/products/f8.jpg"
+              alt="Cartoon Austornaut T-Shirt"
+            />
+            <div class="product__descr">
+              <span class="product__brand">adidas</span>
+              <a class="product__name" href="#">Cartoon Austornaut T-Shirt</a>
+              <div class="product__stars">
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+                <i class="fas fa-star product__star"></i>
+              </div>
+              <span class="product__price">$78</span>
+            </div>
+            <a class="product__btn" href="#">
+              <i class="fa-solid fa-cart-shopping product__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
     <script src="./main.js"></script>
   </body>

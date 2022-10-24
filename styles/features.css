@@ -1,0 +1,45 @@
+.features__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+}
+.feature {
+    text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    padding: 25px 15px;
+}
+.feature:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+.feature__img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.feature__title {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+    color: var(--main-color);
+    padding: 9px 8px 6px;
+}
+.feature__shipping {
+    background-color:#fddde4;
+}
+.feature__order {
+    background-color:#cdebbc;
+}
+.feature__money {
+    background-color:#d1e8f2;
+}
+.feature__promotions {
+    background-color:#cdd4f8;
+}
+.feature__sell {
+    background-color:#f6dbf6;
+}
+.feature__support {
+    background-color:#fff2e5;
+}
