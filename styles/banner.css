@@ -5,11 +5,10 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    min-height: 40vh;
     background: url('../img/banner/b2.jpg') no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 0 15px;
+    padding: 40px 15px;
 }
 .banner__subtitle {
     font-size: 16px;

@@ -1,0 +1,79 @@
+.footer__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer__column {
+    margin-bottom: 20px;
+}
+.footer__logo {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.footer__heading {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer__address {
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.footer__descr {
+    font-size: 14px;
+    margin: 0 0 8px;
+}
+.footer__descr strong {
+    font-weight: 500;
+}
+.footer__socials {
+    display: flex;
+}
+.footer__social {
+    color: var(--text-color);
+    transition: color 0.3s ease;
+}
+.footer__social:hover {
+    color: var(--main-color);
+}
+.footer__social:not(last-child) {
+    padding-right: 15px;
+}
+.footer__list {
+    list-style-type: none;
+}
+.footer__item {
+    margin-bottom: 10px;
+}
+.footer__link {
+    font-size: 14px;
+    color: var(--dark-text);
+    transition: color 0.3s ease;
+}
+.footer__link:hover {
+    color: var(--main-color);
+}
+.footer__text {
+    margin: 0 0 10px;
+}
+.footer__row {
+    display: flex;
+    margin-bottom: 15px;
+}
+.footer__app {
+    font-size: 0;
+    border: 1px solid var(--main-color);
+    border-radius: 6px;
+    padding: 1px;
+}
+.footer__app:not(last-child) {
+    margin-right: 10px;
+}
+.footer__payment {
+    display: block;
+}
+.footer__copy {
+    display: block;
+    text-align: center;
+}

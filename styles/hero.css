@@ -3,7 +3,6 @@
     background: url('../img/hero-bg.png') no-repeat;
     background-position: top 25% right 0;
     background-size: cover;
-    padding: 0 50px;
 }
 .hero__wrapper {
     display: flex;

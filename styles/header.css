@@ -3,10 +3,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;
-    background-color: #e3e6f3;
+    z-index: 9;
+    background-color: var(--header-color);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-    padding: 20px 50px;
+    padding: 20px 0;
 }
 .header__wrapper {
     display: flex;
@@ -45,4 +45,19 @@
     width: 30%;
     height: 2px;
     background-color: var(--main-color);
+}
+.header__mobile-btns {
+    display: flex;
+    align-items: center;
+}
+.header__mobile-cart {
+    display: none;
+    font-size: 24px;
+    color: var(--cod-text);
+    padding-right: 25px;
+}
+.header__mobile-btn {
+    display: none;
+    font-size: 24px;
+    color: var(--cod-text);
 }
