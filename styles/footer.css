@@ -48,6 +48,7 @@
 }
 .footer__link {
     font-size: 14px;
+    text-transform: capitalize;
     color: var(--dark-text);
     transition: color 0.3s ease;
 }

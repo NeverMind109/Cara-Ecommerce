@@ -47,7 +47,7 @@
     background-color: var(--main-color);
 }
 .header__mobile-btns {
-    display: flex;
+    display: none;
     align-items: center;
 }
 .header__mobile-cart {

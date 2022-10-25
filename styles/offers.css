@@ -3,10 +3,10 @@
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 20px;
 }
-.offer__crazy {
+.offers__crazy {
     background: url('../img/banner/b17.jpg');
 }
-.offer__upcoming {
+.offers__upcoming {
     background: url('../img/banner/b10.jpg');
 }
 .offer {

@@ -1,0 +1,15 @@
+.hash-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: url('../img/banner/b1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 15px;
+}
+.hash-banner__title, 
+.hash-banner__descr {
+    color: var(--white-color);
+}

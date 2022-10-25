@@ -65,6 +65,9 @@
     .navbar__item:last-child {
         display: none;
     }
+    .header__mobile-btns {
+        display: flex;
+    }
     .header__mobile-cart {
         display: block;
         z-index: 10;
@@ -104,6 +107,18 @@
     }
     .newsletter__form {
         width: 70%;
+    }
+    .single-product__wrapper {
+        display: block;
+    }
+    .single-product__photos {
+        margin-bottom: 35px;
+    }
+    .single-product__info {
+        padding-top: 0;
+    }
+    .single-product__quantity {
+        height: 33px;
     }
 }
 
@@ -177,5 +192,9 @@
     }
     .footer__copy {
         text-align: left;
+    }
+    .section-title {
+        font-size: 28px;
+        line-height: 38px;
     }
 }

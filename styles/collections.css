@@ -3,13 +3,13 @@
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     gap: 20px;
 }
-.collection__seasonal {
+.collections__seasonal {
     background: url('../img/banner/b7.jpg');
 }
-.collection__footwear {
+.collections__footwear {
     background: url('../img/banner/b4.jpg');
 }
-.collection__tshirt {
+.collections__tshirt {
     background: url('../img/banner/b18.jpg');
 }
 .collection {
