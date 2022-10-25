@@ -7,8 +7,10 @@
 @import './offers.css';
 @import './collections.css';
 @import './newsletter.css';
+@import './pagination.css';
 @import './hash-banner.css';
 @import './single-product.css';
+@import './blog.css';
 
 @import './footer.css';
 

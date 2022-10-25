@@ -1,10 +1,16 @@
+.coupon-bg {
+    background: url('../img/banner/b1.jpg');
+}
+.read-bg {
+    background: url('../img/banner/b19.jpg');
+}
 .hash-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: url('../img/banner/b1.jpg') no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 50px 15px;
