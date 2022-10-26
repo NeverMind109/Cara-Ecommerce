@@ -1,0 +1,44 @@
+.about__wrapper {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+}
+.about__img {
+    height: auto;
+    object-fit: cover;
+}
+.about__info {
+    overflow: hidden;
+}
+.about__title {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.about__descr {
+    line-height: 24px;
+    margin: 0 0 15px;
+}
+.about__text-dotted {
+    line-height: 24px;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    margin: 0 0 15px;
+}
+.about__ticker {
+    background-color: #ccc;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.about__ticker-string {
+    display: inline-block;
+    padding-left: 100%;
+    color: var(--black-color);
+    animation: ticker 15s linear infinite;
+    margin: 0;
+}
+
+@keyframes ticker {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}

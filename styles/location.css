@@ -1,0 +1,51 @@
+.location__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+}
+.location__label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.location__title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.location__name {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.location__address {
+    font-style: normal;
+}
+.location__list {
+    list-style-type: none;
+}
+.location__item {
+    display: flex;
+    font-size: 14px;
+}
+.location__item:not(last-child) {
+    margin-bottom: 15px;
+}
+.location__icon {
+    padding-right: 22px;
+}
+.location__text {
+    margin: 0;
+}
+.location__map-box {
+    height: 400px;
+}
+.location__map {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

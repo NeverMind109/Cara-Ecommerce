@@ -10,15 +10,19 @@
     background-size: cover;
     padding: 40px 15px;
 }
-.banner__subtitle {
-    font-size: 16px;
+.banner__subtitle,
+.banner__title {
+    text-transform: capitalize;
     color: var(--white-color);
     margin-bottom: 10px;
 }
+.banner__subtitle {
+    font-size: 16px;
+    font-weight: 500;
+}
 .banner__title {
     font-size: 30px;
-    color: var(--white-color);
-    margin-bottom: 10px;
+    font-weight: 700;
 }
 .banner__title span {
     color: #ef3636;

@@ -4,6 +4,9 @@
 .read-bg {
     background: url('../img/banner/b19.jpg');
 }
+.know-bg {
+    background: url('../img/about/banner.png');
+}
 .hash-banner {
     display: flex;
     flex-direction: column;
@@ -18,4 +21,7 @@
 .hash-banner__title, 
 .hash-banner__descr {
     color: var(--white-color);
+}
+.hash-banner__descr {
+    text-align: center;
 }

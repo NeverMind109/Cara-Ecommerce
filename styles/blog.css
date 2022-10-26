@@ -20,6 +20,7 @@
 }
 .blog__heading {
     font-size: 20px;
+    font-weight: 700;
     color: var(--dark-text);
     text-transform: capitalize;
     margin-bottom: 15px;
@@ -30,7 +31,7 @@
 .blog__link {
     position: relative;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--black-color);
     text-transform: uppercase;
     transition: color 0.3s ease, background-color 0.3s ease;

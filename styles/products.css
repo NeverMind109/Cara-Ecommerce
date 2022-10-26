@@ -26,6 +26,7 @@
 .product__brand {
     display: block;
     font-size: 16px;
+    font-weight: 400;
     color: #606063;
     margin-bottom: 7px;
 }
@@ -33,6 +34,7 @@
     display: inline-block;
     font-size: 20px;
     font-weight: 600;
+    text-transform: capitalize;
     color: var(--cod-text);
     margin-bottom: 7px;
 }
