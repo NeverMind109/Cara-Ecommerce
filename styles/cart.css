@@ -1,0 +1,102 @@
+.cart__wrapper {
+    overflow-x: auto;
+}
+.cart__table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+.cart__table thead {
+    border: 1px solid var(--table-color);
+    border-left: none;
+    border-right: none;
+}
+.cart__table thead td {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 18px 0;
+}
+.cart__table tbody td {
+    font-size: 16px;
+    padding-top: 15px;
+}
+.cart__table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+.cart__table td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+.cart__table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+.cart__table td:nth-child(4),
+.cart__table td:nth-child(5),
+.cart__table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+.cart__delete-btn {
+    font-size: 16px
+}
+.cart__img {
+    width: 70px;
+}
+.cart__quantity {
+    width: 70px;
+    border: 1px solid var(--black-color);
+    border-radius: 4px;
+    padding: 10px 5px 10px 15px;
+}
+.cart__bottom {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 40px;
+}
+.cart__heading {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.cart__coupon-input {
+    font-family: inherit;
+    font-size: 14px;
+    width: 60%;
+    border: 1px solid var(--table-color);
+    outline: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.cart__btn {
+    color: var(--white-color);
+    background-color: var(--main-color);
+    padding: 13px 20px;
+}
+.total {
+    border: 1px solid var(--table-color);
+    padding: 30px;
+}
+.total__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+.total__table td {
+    font-size: 14px;
+    width: 50%;
+    border: 1px solid var(--table-color);
+    padding: 10px;
+}
+.total__bold-text {
+    font-weight: 600;
+}
+.cart__text-empty {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 30px;
+}

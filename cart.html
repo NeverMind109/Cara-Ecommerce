@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cara - Cart</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a class="logo" href="index.html">
+            <img class="logo__img" src="./img/logo.png" alt="Logo" />
+          </a>
+          <nav class="header__navigation" id="navigation">
+            <ul class="navbar" id="navbar">
+              <li class="navbar__item">
+                <a class="navbar__link" href="index.html">Home</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="shop.html">Shop</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="blog.html">Blog</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="about.html">About</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="contact.html">Contact</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link navbar__cart active" href="cart.html"
+                  ><i class="fa-solid fa-bag-shopping"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__mobile-btns">
+            <a class="header__mobile-cart active" href="cart.html"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+            <button class="btn header__mobile-btn" id="mobile-btn">
+              <i class="fas fa-outdent"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hash-banner know-bg" id="hash-banner">
+        <h2 class="section-title hash-banner__title">#save</h2>
+        <p class="hash-banner__descr">Add your coupon code #save up to 70%!</p>
+      </section>
+      <section class="cart section-p-offset" id="cart">
+        <h2 class="visually-hidden">Shopping Cart</h2>
+        <div class="container">
+          <div class="cart__wrapper">
+            <table class="cart__table">
+              <thead>
+                <tr>
+                  <td>Remove</td>
+                  <td>Image</td>
+                  <td>Product</td>
+                  <td>Price</td>
+                  <td>Quantity</td>
+                  <td>Subtotal</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="cart__table-row">
+                  <td>
+                    <button class="btn cart__delete-btn">
+                      <i class="far fa-times-circle"></i>
+                    </button>
+                  </td>
+                  <td>
+                    <img
+                      class="cart__img"
+                      src="./img/products/f1.jpg"
+                      alt="Cartoon Austornaut T-Shirt"
+                    />
+                  </td>
+                  <td>Cartoon Austornaut T-Shirt</td>
+                  <td><span class="cart__cost">$118.19</span></td>
+                  <td>
+                    <input
+                      class="cart__quantity"
+                      type="number"
+                      value="1"
+                      min="1"
+                    />
+                  </td>
+                  <td><span class="cart__subtotal">$118.19</span></td>
+                </tr>
+                <tr class="cart__table-row">
+                  <td>
+                    <button class="btn cart__delete-btn">
+                      <i class="far fa-times-circle"></i>
+                    </button>
+                  </td>
+                  <td>
+                    <img
+                      class="cart__img"
+                      src="./img/products/f2.jpg"
+                      alt="Cartoon Austornaut T-Shirt"
+                    />
+                  </td>
+                  <td>Cartoon Austornaut T-Shirt</td>
+                  <td><span class="cart__cost">$90.19</span></td>
+                  <td>
+                    <input
+                      class="cart__quantity"
+                      type="number"
+                      value="2"
+                      min="1"
+                    />
+                  </td>
+                  <td><span class="cart__subtotal">$180.38</span></td>
+                </tr>
+                <tr class="cart__table-row">
+                  <td>
+                    <button class="btn cart__delete-btn">
+                      <i class="far fa-times-circle"></i>
+                    </button>
+                  </td>
+                  <td>
+                    <img
+                      class="cart__img"
+                      src="./img/products/f3.jpg"
+                      alt="Cartoon Austornaut T-Shirt"
+                    />
+                  </td>
+                  <td>Cartoon Austornaut T-Shirt</td>
+                  <td><span class="cart__cost">$95.24</span></td>
+                  <td>
+                    <input
+                      class="cart__quantity"
+                      type="number"
+                      value="1"
+                      min="1"
+                    />
+                  </td>
+                  <td><span class="cart__subtotal">$95.24</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="cart__bottom">
+            <div class="cart__coupon">
+              <h3 class="cart__heading">Apply Coupon</h3>
+              <form class="cart__coupon-form" action="#">
+                <input
+                  class="cart__coupon-input"
+                  type="text"
+                  placeholder="Enter Your Coupon"
+                  required
+                />
+                <button
+                  class="btn btn-normal cart__btn"
+                  id="cart-coupon-btn"
+                  type="submit"
+                >
+                  Apply
+                </button>
+              </form>
+            </div>
+            <div class="cart__total total">
+              <h3 class="cart__heading">Cart Totals</h3>
+              <table class="total__table">
+                <tr>
+                  <td>Cart Subtotal</td>
+                  <td id="final-subtotal">$335</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>Free</td>
+                </tr>
+                <tr>
+                  <td class="total__bold-text">Total</td>
+                  <td class="total__bold-text" id="final-total">$335</td>
+                </tr>
+              </table>
+              <button class="btn btn-normal cart__btn" id="cart-checkout">
+                Proceed to checkout
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__column">
+            <a class="logo footer__logo" href="index.html">
+              <img class="logo__img" src="./img/logo.png" alt="Logo" />
+            </a>
+            <span class="footer__heading">Contact</span>
+            <address class="footer__address">
+              <p class="footer__descr">
+                <strong>Address: </strong>562 Wellington Road, Street 32, San
+                Francisco
+              </p>
+              <p class="footer__descr">
+                <strong>Phone: </strong>+01 2222 365/(+91) 01 2345 6789
+              </p>
+              <p class="footer__descr">
+                <strong>Hours: </strong>10:00 - 18:00, Mon-Sat
+              </p>
+            </address>
+            <span class="footer__heading">Follow Us</span>
+            <div class="footer__socials">
+              <a class="footer__social" href="#" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="footer__social" href="#" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="footer__social" href="#" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a class="footer__social" href="#" target="_blank">
+                <i class="fab fa-pinterest-p"></i>
+              </a>
+              <a class="footer__social" href="#" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer__column">
+            <span class="footer__heading">About</span>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Delivery Information</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Privacy Policy</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Terms & Conditions</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <span class="footer__heading">My Account</span>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Sign In</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">View Cart</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">My Wishlist</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Track My Orders</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Help</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <span class="footer__heading">Install App</span>
+            <p class="footer__text">From App Store or Google Play</p>
+            <div class="footer__row">
+              <a class="footer__app" href="#">
+                <img src="./img/pay/app.jpg" alt="App Store Logo" />
+              </a>
+              <a class="footer__app" href="#">
+                <img src="./img/pay/play.jpg" alt="Google Play Logo" />
+              </a>
+            </div>
+            <p class="footer__text">Secured Payment Gateways</p>
+            <img
+              class="footer__payment"
+              src="./img/pay/pay.png"
+              alt="Payment Systems"
+            />
+          </div>
+        </div>
+        <span class="footer__copy"
+          >&#169; 2022, Lorem ipsum dolor sit amet.</span
+        >
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -161,6 +161,16 @@
     .contact__staff {
         padding-top: 0;
     }
+    .cart__bottom {
+        display: block;
+    }
+    .cart__coupon {
+        padding-left: 30px;
+        margin-bottom: 30px;
+    }
+    .cart__coupon-input {
+        width: 50%;
+    }
 }
 
 @media (max-width: 477px) {
@@ -245,5 +255,18 @@
     }
     .location__title {
         line-height: 28px;
+    }
+    .cart__coupon {
+        padding: 0;
+    }
+    .cart__bottom {
+        padding-top: 30px;
+    }
+    .cart__coupon-input {
+        width: calc(100% - 100px);
+    }
+    .total {
+        padding: 0;
+        border: none;
     }
 }
