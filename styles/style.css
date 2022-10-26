@@ -3,12 +3,12 @@
 @import './hero.css';
 @import './features.css';
 @import './products.css';
-@import './banner.css';
+@import './notification.css';
 @import './offers.css';
 @import './collections.css';
 @import './newsletter.css';
 @import './pagination.css';
-@import './hash-banner.css';
+@import './hash-notification.css';
 @import './single-product.css';
 @import './blog.css';
 @import './about.css';
@@ -16,7 +16,5 @@
 @import './location.css';
 @import './contact.css';
 @import './cart.css';
-
 @import './footer.css';
-
 @import './media.css';

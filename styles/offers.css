@@ -4,10 +4,10 @@
     gap: 20px;
 }
 .offers__crazy {
-    background: url('../img/banner/b17.jpg');
+    background: url('../img/notifications/b17.jpg');
 }
 .offers__upcoming {
-    background: url('../img/banner/b10.jpg');
+    background: url('../img/notifications/b10.jpg');
 }
 .offer {
     display: flex;

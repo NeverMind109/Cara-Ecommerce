@@ -4,13 +4,13 @@
     gap: 20px;
 }
 .collections__seasonal {
-    background: url('../img/banner/b7.jpg');
+    background: url('../img/notifications/b7.jpg');
 }
 .collections__footwear {
-    background: url('../img/banner/b4.jpg');
+    background: url('../img/notifications/b4.jpg');
 }
 .collections__tshirt {
-    background: url('../img/banner/b18.jpg');
+    background: url('../img/notifications/b18.jpg');
 }
 .collection {
     display: flex;

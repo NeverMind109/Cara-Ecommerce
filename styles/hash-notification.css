@@ -1,13 +1,13 @@
 .coupon-bg {
-    background: url('../img/banner/b1.jpg');
+    background: url('../img/notifications/b1.jpg');
 }
 .read-bg {
-    background: url('../img/banner/b19.jpg');
+    background: url('../img/notifications/b19.jpg');
 }
 .know-bg {
-    background: url('../img/about/banner.png');
+    background: url('../img/about/note.png');
 }
-.hash-banner {
+.hash-notification {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,10 +18,10 @@
     background-size: cover;
     padding: 50px 15px;
 }
-.hash-banner__title, 
-.hash-banner__descr {
+.hash-notification__title, 
+.hash-notification__descr {
     color: var(--white-color);
 }
-.hash-banner__descr {
+.hash-notification__descr {
     text-align: center;
 }
